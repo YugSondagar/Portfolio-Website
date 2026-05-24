@@ -33,17 +33,17 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
 
   return (
     <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-center p-8 z-10 w-full font-sans">
-      
+
       {/* 0% Section */}
       {show1 && (
-        <motion.div 
-          style={{ opacity: text1Opacity, y: text1Y }} 
+        <motion.div
+          style={{ opacity: text1Opacity, y: text1Y }}
           className="absolute inset-0 flex items-center justify-center text-center"
         >
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tighter text-white drop-shadow-2xl space-y-4 max-w-5xl px-4">
             <span className="block drop-shadow-[0_0_15px_rgba(0,0,0,0.5)]">Yug Sondagar.</span>
-            <span className="block text-3xl md:text-5xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-zinc-200 to-zinc-600 drop-shadow-[0_0_15px_rgba(0,0,0,0.5)] font-bold">
-              Building Intelligent AI Systems <br/>that Think, Learn, and Act.
+            <span className="block text-3xl md:text-5xl lg:text-5xl text-white/95 drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)] font-bold">
+              Building Intelligent AI Systems <br />that Think, Learn, and Act.
             </span>
           </h1>
         </motion.div>
@@ -51,8 +51,8 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
 
       {/* 30% Section */}
       {show2 && (
-        <motion.div 
-          style={{ opacity: text2Opacity, y: text2Y }} 
+        <motion.div
+          style={{ opacity: text2Opacity, y: text2Y }}
           className="absolute inset-0 flex items-center justify-start text-left pl-[5%] md:pl-[10%] lg:pl-[15%]"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white/95 max-w-2xl drop-shadow-[0_4px_10px_rgba(0,0,0,0.5)] leading-snug">
@@ -63,16 +63,16 @@ export default function Overlay({ scrollYProgress }: OverlayProps) {
 
       {/* 60% Section */}
       {show3 && (
-        <motion.div 
-          style={{ opacity: text3Opacity, y: text3Y }} 
+        <motion.div
+          style={{ opacity: text3Opacity, y: text3Y }}
           className="absolute inset-0 flex items-center justify-end text-right pr-[5%] md:pr-[10%] lg:pr-[15%]"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white/95 max-w-2xl drop-shadow-[0_4px_10px_rgba(0,0,0,0.5)] leading-snug">
-            AI Agents. RAG Systems.<br/>Real-world ML apps.
+            AI Agents. RAG Systems.<br />Real-world ML apps.
           </h2>
         </motion.div>
       )}
-      
+
     </div>
   );
 }

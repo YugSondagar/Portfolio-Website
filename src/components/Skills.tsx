@@ -3,39 +3,44 @@ import { motion } from 'framer-motion';
 
 const skillCategories = [
   {
-    title: 'Generative AI & Agents',
-    skills: ['LangChain', 'LangGraph', 'Multi-Agent Systems', 'RAG Pipelines', 'Prompt Engineering', 'LLM Fine-Tuning'],
+    title: 'Languages',
+    skills: ['Python', 'Java', 'JavaScript', 'R', 'C'],
     color: 'emerald'
   },
   {
-    title: 'AI / Machine Learning',
-    skills: ['Transformers', 'CNN', 'RNN', 'Supervised & Unsupervised Learning', 'Model Optimization'],
+    title: 'Generative AI & Agents',
+    skills: ['LangChain', 'LangGraph', 'RAG Pipelines', 'Prompt Engineering', 'Google ADK'],
     color: 'blue'
   },
   {
-    title: 'Backend Development',
-    skills: ['Django', 'Flask', 'REST APIs', 'OOP Concepts'],
+    title: 'AI / Machine Learning',
+    skills: ['Transformers', 'CNNs', 'RNNs', 'NLP'],
     color: 'purple'
   },
   {
-    title: 'Databases & Vector Stores',
-    skills: ['MySQL', 'MongoDB', 'Pinecone', 'ChromaDB', 'AstraDB'],
+    title: 'Frameworks',
+    skills: ['Flask', 'Django'],
     color: 'rose'
   },
   {
-    title: 'Core Tools',
-    skills: ['Python (Expert)', 'SQL', 'Git', 'Docker', 'Pandas', 'NumPy', 'Matplotlib', 'MLflow', 'DagsHub'],
+    title: 'Databases & Vector DBs',
+    skills: ['MySQL', 'MongoDB', 'Pinecone', 'ChromaDB', 'Astra DB'],
     color: 'orange'
   },
   {
-    title: 'CS Fundamentals',
-    skills: ['DBMS', 'Computer Networks', 'Data Structures', 'Algorithms'],
+    title: 'Tools & Libraries',
+    skills: ['TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'MLflow', 'Dagshub', 'Git', 'Docker', 'SQL'],
     color: 'slate'
+  },
+  {
+    title: 'Core CS',
+    skills: ['DBMS', 'Networking', 'Data Structures', 'OOP'],
+    color: 'emerald'
   }
 ];
 
 const getPointColor = (color: string) => {
-  switch(color) {
+  switch (color) {
     case 'emerald': return 'bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.8)]';
     case 'blue': return 'bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)]';
     case 'purple': return 'bg-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.8)]';
@@ -49,7 +54,7 @@ export default function Skills() {
   return (
     <section className="relative z-20 bg-black text-white px-6 md:px-12 py-32 border-t border-white/5">
       <div className="max-w-7xl mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}

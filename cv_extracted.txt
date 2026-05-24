@@ -1,0 +1,49 @@
+Yug Sondagar
+yugsondagar11092005 @gmail.com
+LinkedIn
+LeetCode
+8983366997
+GitHub
+Profile
+AI practitioner focused on building agent-based systems and autonomous workflows using LangChain and multi-agent
+frameworks. Experienced in Generative AI and Transformer models, including RAG pipelines and fine-tuning LLMs for
+domain-specific tasks. Strong background in Deep Learning and Data Science with hands-on work in TensorFlow and
+Scikit-learn, consistently improving model performance by 15%+ across projects. Enjoys writing clean, production-
+ready code and turning ideas into practical AI solutions.
+Skills
+•Languages: Python, Java, JavaScript, R, C
+•AI/ML: Transformers, CNNs, RNNs, NLP
+•Generative AI: LangChain, LangGraph, RAG, Prompt Engineering, Google ADK
+•Frameworks: Flask, Django
+•Databases & Vector DBs: MySQL, MongoDB, Pinecone, ChromaDB, Astra DB
+•Tools & Libraries: TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, MLflow, Dagshub, Git, Docker, SQL
+•Core CS: DBMS, Networking, Data Structures, OOP
+Projects
+AI Resume Analyzer & Job Matcher 
+•Built an AI-based system to analyze resumes vs job descriptions using NLP with TF-IDF/ embeddings for relevance 
+scoring
+•Implemented ATS-style scoring using keyword extraction and similarity matching for accurate evaluation
+•Developed a Streamlit-based web app generating actionable feedback to improve resume alignment and ATS 
+performance
+Code Review Agent 
+•Built an AI-powered code review tool using Flask and Ollama for fast, automated feedback
+•Combined static analysis tools (pylint, bandit, radon) with LLM reasoning to improve accuracy
+•Implemented chunking for large codebases and designed a scalable, modular backend with structured outputs 
+(bugs, security, performance) and multi-language support
+SafeSpace - AI Mental Health Chatbot 
+•Built an empathetic AI chatbot providing 24/ 7 mental health support using NLP
+•Developed real-time sentiment and risk detection to identify distress and suicidal intent
+•Integrated Twilio API to trigger emergency calls to helplines or trusted contacts in critical situations
+Face Emotion Detection 
+•Built a CNN model to classify 7 emotions using FER-2013 with augmentation & dropout for improved accuracy
+•Implemented real-time face detection using OpenCV (Haar Cascades), optimized for low-latency performance
+Education
+Bachelor of Engineering in Computer Science and Artifical Intelligence
+Parul University
+Pursing (CGPA : 8.84)
+Present
+Certificates
+Retrieval Augmented Generation (RAG) with LangChain   IBM SkillsBuild
+GenAI Job Simulation     BCG (Forage)
+Cloud Foundations     AWS Academy
+Data Analytics Job Simulation     Deloitte (Forage)
